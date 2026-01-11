@@ -16,12 +16,12 @@ public class TC_RF_001 {
 
     @Test
     public static void TC_001() {
+        System.out.println("TC_RF_001 is Testing...");
 
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-        System.out.println("TC_RF_001 is Testing...");
 
         driver.get("https://tutorialsninja.com/demo/");
 
