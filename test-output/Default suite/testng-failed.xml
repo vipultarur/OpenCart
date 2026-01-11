@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="opencart.Opencart.TC_RF_005">
+      <class name="opencart.Opencart.TC_RF_006">
         <methods>
           <include name="TC_001"/>
         </methods>
-      </class> <!-- opencart.Opencart.TC_RF_005 -->
+      </class> <!-- opencart.Opencart.TC_RF_006 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
