@@ -14,6 +14,7 @@ public class TC_RF_004 {
 	public static void main(String args[]) throws InterruptedException
 	{
 		System.out.println("TC_RF_004 is Testing...");
+		System.out.println("Validate proper notification messages are displayed for the mandatory fields, when you don't provide any fields in the 'Register Account' page and submit");
 		
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();

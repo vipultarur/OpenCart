@@ -15,6 +15,7 @@ public class TC_RF_003 {
 	public static void main(String args[])
 	{
 		System.out.print("TC_RF_003 is Testing...");
+		System.out.println("Validate Registering an Account by providing all the fields");
 		
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://tutorialsninja.com/demo/");
